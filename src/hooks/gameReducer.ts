@@ -93,7 +93,6 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
 
             const { equipoId, cantidad, powerupUsado } = state.pujaActual;
             const puntosGanados = ScoringService.calculatePoints(
-                state.retoActual.puntosBase,
                 cantidad,
                 action.payload.correcto,
                 powerupUsado

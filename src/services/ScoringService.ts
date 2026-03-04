@@ -1,42 +1,41 @@
 // src/services/ScoringService.ts
-import { GAME_CONSTANTS } from '../utils/constants';
-import type { PowerupType, ScoreCalculation } from '../models/types';
+import { PowerupType } from '../models/types';
 
-export const ScoringService = {
-    calculatePoints(basePts: number, puja: number, correcto: boolean, powerup?: PowerupType): number {
-        
-        // --- ESCENARIO: RESPUESTA INCORRECTA ---
-        if (!correcto) {
-            // Si tiene SALVA, no pierde nada
-            if (powerup === 'SALVA') return 0;
+export interface ScoreCalculation {
+    base: number;
+    final: number;
+    multiplier: number;
+    description: string;
+}
 
-            // Lógica "Doble Suicida": Si usó DOBLE y falló, pierde el doble
-            if (powerup === 'DOBLE') {
-                return -(puja * GAME_CONSTANTS.POWERUP_DOBLE_MULTIPLIER);
-            }
-
-            // Pérdida normal
-            return -puja;
-        }
-
-        // --- ESCENARIO: RESPUESTA CORRECTA ---
-        let puntos = puja;
-
-        // Multiplicador de DOBLE
-        if (powerup === 'DOBLE') {
-            puntos *= GAME_CONSTANTS.POWERUP_DOBLE_MULTIPLIER;
-        }
-
-        return puntos;
-    },
-
-    calculatePreview(basePts: number, puja: number, powerup?: PowerupType): ScoreCalculation {
-        const ganancia = this.calculatePoints(basePts, puja, true, powerup);
-        // Usamos Math.abs para mostrar la pérdida siempre positiva en la UI
-        const perdida = Math.abs(this.calculatePoints(basePts, puja, false, powerup));
-        
-        const multiplier = powerup === 'DOBLE' ? GAME_CONSTANTS.POWERUP_DOBLE_MULTIPLIER : 1;
-
-        return { ganancia, perdida, multiplier };
+export class ScoringService {
+    calculatePoints(puja: number, correcto: boolean, powerup?: PowerupType): number {
+        if (!correcto && powerup === 'SALVA') return 0;
+        const pts = correcto ? puja : -puja;
+        if (powerup === 'DOBLE') return pts * 2;
+        return pts;
     }
-};
+
+    calculatePreview(puja: number, powerup?: PowerupType): ScoreCalculation {
+        const multiplier = powerup === 'DOBLE' ? 2 : 1;
+        const final = puja * multiplier;
+        return {
+            base: puja,
+            final,
+            multiplier,
+            description: powerup === 'DOBLE'
+                ? `±${final} pts (×2)`
+                : powerup === 'SALVA'
+                ? `+${puja} si acierta, 0 si falla`
+                : `±${puja} pts`,
+        };
+    }
+
+    // Método estático para usarlo sin instancia (compatibilidad con gameReducer)
+    static calculatePoints(puja: number, correcto: boolean, powerup?: PowerupType): number {
+        if (!correcto && powerup === 'SALVA') return 0;
+        const pts = correcto ? puja : -puja;
+        if (powerup === 'DOBLE') return pts * 2;
+        return pts;
+    }
+}
