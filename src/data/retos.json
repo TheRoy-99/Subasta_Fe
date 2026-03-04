@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué apóstol escribió: 'La letra mata, pero el Espíritu vivifica'?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 45,
+    "referencia": "2 Corintios 3",
+    "categoria": "Nuevo Testamento",
+    "respuesta": "Pablo"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué rey tenía una cama de hierro de 9 codos de largo?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 70,
+    "referencia": "Deuteronomio 3",
+    "categoria": "Curiosidades",
+    "respuesta": "Og, rey de Basán"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Quién mató a un león en un foso un día de nieve?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 65,
+    "referencia": "2 Samuel 23",
+    "categoria": "Valientes de David",
+    "respuesta": "Benaía"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cómo se llamaba la serpiente de bronce que destruyó el rey Ezequías?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 60,
+    "referencia": "2 Reyes 18",
+    "categoria": "Objetos",
+    "respuesta": "Nehustán"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Quién fue el hombre que reconstruyó Jericó a costa de la vida de sus hijos?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 75,
+    "referencia": "1 Reyes 16",
+    "categoria": "Maldiciones",
+    "respuesta": "Hiel de Bet-el"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cómo se llamaba el mayordomo de Abraham?",
+    "dificultad": "MEDIO",
+    "puntosBase": 40,
+    "referencia": "Génesis 15",
+    "categoria": "Personajes",
+    "respuesta": "Eliezer"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué nombre significa 'La gloria ha sido desterrada'?",
+    "dificultad": "MEDIO",
+    "puntosBase": 40,
+    "referencia": "1 Samuel 4",
+    "categoria": "Significados",
+    "respuesta": "Icabod"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Quién escondió a 100 profetas en cuevas para salvarlos de Jezabel?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 55,
+    "referencia": "1 Reyes 18:4",
+    "categoria": "Personajes Secundarios",
+    "respuesta": "Abdías"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cuál es el fruto del Espíritu según Gálatas?",
+    "dificultad": "MEDIO",
+    "puntosBase": 35,
+    "referencia": "Gálatas 5",
+    "categoria": "Doctrina",
+    "respuesta": "Amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cómo se llamaba el viento huracanado que golpeó el barco de Pablo?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 60,
+    "referencia": "Hechos 27",
+    "categoria": "Hechos",
+    "respuesta": "Euroclidón"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué rey de Judá enfermó de los pies en su vejez?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 50,
+    "referencia": "1 Reyes 15",
+    "categoria": "Reyes",
+    "respuesta": "Asa"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Cuántas personas iban en el barco con Pablo cuando naufragaron?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 80,
+    "referencia": "Hechos 27:37",
+    "categoria": "Cifras Exactas",
+    "respuesta": "276 personas"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿De qué madera estaba hecha el arca de Noé?",
+    "dificultad": "MEDIO",
+    "puntosBase": 35,
+    "referencia": "Génesis 6",
+    "categoria": "Materiales",
+    "respuesta": "Madera de gofer"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué mujer le clavó una estaca en la sien a Sísara?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 55,
+    "referencia": "Jueces 4",
+    "categoria": "Mujeres Guerreras",
+    "respuesta": "Jael"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Cuántos años reinó David en total?",
+    "dificultad": "FACIL",
+    "puntosBase": 20,
+    "referencia": "2 Samuel 5",
+    "categoria": "Reyes",
+    "respuesta": "40 años"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Cuántas trenzas tenía Sansón en su cabeza?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 45,
+    "referencia": "Jueces 16",
+    "categoria": "Detalles",
+    "respuesta": "Siete"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué rey tuvo 700 esposas y 300 concubinas?",
+    "dificultad": "MEDIO",
+    "puntosBase": 25,
+    "referencia": "1 Reyes 11",
+    "categoria": "Reyes",
+    "respuesta": "Salomón"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué don recibieron los discípulos en Pentecostés?",
+    "dificultad": "MEDIO",
+    "puntosBase": 25,
+    "referencia": "Hechos 2:1-4",
+    "categoria": "Espíritu Santo",
+    "respuesta": "El Espíritu Santo"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cómo se llamaban las dos columnas del templo de Salomón?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 65,
+    "referencia": "1 Reyes 7",
+    "categoria": "Templo",
+    "respuesta": "Jaquín y Boaz"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿En qué lengua original se escribió la mayor parte del Antiguo Testamento?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 40,
+    "referencia": "General",
+    "categoria": "Traducción",
+    "respuesta": "Hebreo"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué discípulo fue mordido por una víbora sin sufrir daño?",
+    "dificultad": "FACIL",
+    "puntosBase": 30,
+    "referencia": "Hechos 28",
+    "categoria": "Hechos",
+    "respuesta": "Pablo"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué juez hizo un voto insensato y tuvo que sacrificar a su hija?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 50,
+    "referencia": "Jueces 11",
+    "categoria": "Jueces",
+    "respuesta": "Jefté"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cuál es el libro más corto del Antiguo Testamento y su cantidad de versículos?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 50,
+    "referencia": "General",
+    "categoria": "Estructura",
+    "respuesta": "Abdías (21 versículos)"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Cómo se llamaba la esposa de Aarón?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 80,
+    "referencia": "Éxodo 6",
+    "categoria": "Genealogía Difícil",
+    "respuesta": "Elisebeth"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Quién tenía un gigante de seis dedos en cada mano y pie?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 70,
+    "referencia": "2 Samuel 21:20",
+    "categoria": "Curiosidades",
+    "respuesta": "Un hombre de gran estatura (hijo de un gigante en Gat)"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Cuántas veces dio vueltas Israel a Jericó en total durante los 7 días?",
+    "dificultad": "MEDIO",
+    "puntosBase": 45,
+    "referencia": "Josué 6",
+    "categoria": "Cifras",
+    "respuesta": "13 veces (1 vez por 6 días + 7 veces el último día)"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cuántos reyes magos visitaron a Jesús en el pesebre según la Biblia?",
+    "dificultad": "FACIL",
+    "puntosBase": 30,
+    "referencia": "Mateo 2",
+    "categoria": "Sabias que...",
+    "respuesta": "La Biblia no dice cuántos eran (solo menciona 3 regalos) y no fue en el pesebre, sino en una casa"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cuál fue la fruta prohibida que comieron Adán y Eva?",
+    "dificultad": "FACIL",
+    "puntosBase": 20,
+    "referencia": "Génesis 3",
+    "categoria": "Sabias que...",
+    "respuesta": "El fruto del árbol de la ciencia del bien y del mal (la Biblia nunca dice 'manzana')"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cuántos años sirvió Jacob a Labán en TOTAL por sus esposas y su ganado?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 55,
+    "referencia": "Génesis 31",
+    "categoria": "Cálculo",
+    "respuesta": "20 años (14 por sus dos hijas + 6 por el ganado)"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Cuántos muchachos despedazaron los dos osos que maldijo el profeta Eliseo?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 65,
+    "referencia": "2 Reyes 2",
+    "categoria": "Cifras Exactas",
+    "respuesta": "42 muchachos"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué animal morará con el cordero según la profecía de Isaías?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 55,
+    "referencia": "Isaías 11",
+    "categoria": "Trampa Visual",
+    "respuesta": "El lobo (mucha gente cree que es el león, pero el texto dice 'Morará el lobo con el cordero')"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué es la raíz de todos los males?",
+    "dificultad": "MEDIO",
+    "puntosBase": 35,
+    "referencia": "1 Timoteo 6",
+    "categoria": "Precisión",
+    "respuesta": "El AMOR al dinero (no el dinero en sí mismo)"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Por qué parte de su cuerpo quedó colgado Absalón en la encina?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 50,
+    "referencia": "2 Samuel 18",
+    "categoria": "Detalles",
+    "respuesta": "Por su cabeza (la tradición dice 'por su cabello', pero el texto dice que 'su cabeza se trabó en la encina')"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué objeto usó Yael para matar a Sísara mientras dormía?",
+    "dificultad": "AVANZADO",
+    "puntosBase": 50,
+    "referencia": "Jueces 4",
+    "categoria": "Armas Bíblicas",
+    "respuesta": "Una estaca de tienda y un mazo"
+  }
+]
